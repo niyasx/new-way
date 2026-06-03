@@ -20,8 +20,8 @@ return [
         'email' => env('SITE_EMAIL', 'newwaypmna@gmail.com'),
         'phone_primary' => env('SITE_PHONE_PRIMARY', '+918086740392'),
         'phone_primary_display' => '+91 80867 40392',
-        'phone_secondary' => env('SITE_PHONE_SECONDARY', '+917907530899'),
-        'phone_secondary_display' => '+91 79075 30899',
+        'phone_secondary' => env('SITE_PHONE_SECONDARY', '+919656023810'),
+        'phone_secondary_display' => '+91 96560 23810',
         'address' => [
             'line1' => 'KIMS Avenue Building, Shanti Nagar',
             'line2' => 'Perinthalmanna, Kerala 679322',

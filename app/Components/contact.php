@@ -16,7 +16,7 @@
         </div>
         <div class="contact-detail">
           <div class="cd-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.08 4.22 2 2 0 012.08 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></div>
-          <div><div class="cd-lbl">Phone</div><div class="cd-val"><a href="tel:+918086740392">+91 80867 40392</a><br><a href="tel:+917907530899">+91 79075 30899</a></div></div>
+          <div><div class="cd-lbl">Phone</div><div class="cd-val"><a href="tel:<?= e(config('site.phone_primary')) ?>"><?= e(config('site.phone_primary_display')) ?></a><br><a href="tel:<?= e(config('site.phone_secondary')) ?>"><?= e(config('site.phone_secondary_display')) ?></a></div></div>
         </div>
         <div class="contact-detail">
           <div class="cd-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>

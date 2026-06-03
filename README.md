@@ -185,7 +185,7 @@ See [deploy.md](deploy.md) for complete Apache, Nginx, shared hosting, and VPS s
 | `APP_KEY` | Reserved for future encryption | (optional) |
 | `SITE_EMAIL` | Primary contact email | `newwaypmna@gmail.com` |
 | `SITE_PHONE_PRIMARY` | E.164 or tel link format | `+918086740392` |
-| `SITE_PHONE_SECONDARY` | Second phone line | `+917907530899` |
+| `SITE_PHONE_SECONDARY` | Second phone line | `+919656023810` |
 | `MAIL_HOST` | SMTP host (future use) | `smtp.gmail.com` |
 | `MAIL_PORT` | SMTP port | `587` |
 | `MAIL_USERNAME` | SMTP user | |

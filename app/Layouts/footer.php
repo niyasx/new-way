@@ -2,13 +2,8 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="fb-logo">
-        <div class="logo-icon" style="width:34px;height:34px">
-          <svg viewBox="0 0 44 44" fill="none" style="width:20px;height:20px">
-            <circle cx="22" cy="10" r="5" fill="white" opacity=".95"/>
-            <polyline points="10,34 10,20 22,34 34,20 34,34" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <polyline points="28,26 34,19 40,26" stroke="#c8922a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
+        <?php $logoSize = 34;
+        require dirname(__DIR__) . '/Components/logo-icon.php'; ?>
         <span class="fb-name">New Way Consultancy</span>
       </div>
       <span class="fb-tag">Your Trusted Career Partner</span>
@@ -37,7 +32,7 @@
     <div class="footer-col">
       <h4>Contact</h4>
       <p>KIMS Avenue Building<br>Shanti Nagar, Perinthalmanna<br>Kerala 679322, India</p>
-      <p><a href="tel:+918086740392">+91 80867 40392</a><br><a href="tel:+917907530899">+91 79075 30899</a></p>
+      <p><a href="tel:<?= e(config('site.phone_primary')) ?>"><?= e(config('site.phone_primary_display')) ?></a><br><a href="tel:<?= e(config('site.phone_secondary')) ?>"><?= e(config('site.phone_secondary_display')) ?></a></p>
       <p><a href="mailto:newwaypmna@gmail.com">newwaypmna@gmail.com</a></p>
       <p>Mon–Sat · 9:30 AM – 6:00 PM</p>
     </div>

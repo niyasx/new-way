@@ -26,6 +26,10 @@ $siteName = (string) ($siteName ?? config('site.name'));
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?= e($canonicalUrl) ?>">
 
+<link rel="icon" type="image/png" sizes="32x32" href="<?= e(asset('images/favicon-32x32.png')) ?>">
+<link rel="icon" type="image/png" sizes="16x16" href="<?= e(asset('images/favicon-16x16.png')) ?>">
+<link rel="apple-touch-icon" sizes="180x180" href="<?= e(asset('images/apple-touch-icon.png')) ?>">
+
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?= e($pageTitle) ?>">
 <meta property="og:description" content="<?= e($metaDescription) ?>">

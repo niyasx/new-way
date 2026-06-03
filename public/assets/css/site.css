@@ -49,8 +49,8 @@ img { max-width:100%; }
 
 /* logo */
 .logo { display:flex; align-items:center; gap:.75rem; }
-.logo-icon { width:38px; height:38px; background:var(--blue); border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-.logo-icon svg { width:22px; height:22px; }
+.logo-icon { width:38px; height:38px; border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; overflow:hidden; }
+.logo-icon img { width:100%; height:100%; object-fit:cover; display:block; }
 .logo-text strong { display:block; font-family:var(--fd); font-size:.95rem; font-weight:700; color:var(--white); letter-spacing:-.01em; line-height:1.1; }
 .logo-text span { display:block; font-size:.52rem; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--gold); }
 
@@ -259,7 +259,7 @@ section { padding:96px 5%; }
 .avc-mesh { position:absolute; inset:0; background:radial-gradient(ellipse 60% 50% at 50% 30%, rgba(37,99,235,.25) 0%, transparent 65%); }
 .avc-grid { position:absolute; inset:0; background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px); background-size:36px 36px; }
 .avc-center { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:2rem; }
-.avc-center svg { width:64px; height:64px; margin-bottom:1.4rem; }
+.avc-center .avc-logo { width:64px; height:64px; margin-bottom:1.4rem; border-radius:10px; object-fit:cover; }
 .avc-name { font-family:var(--fd); font-size:1.8rem; font-weight:800; color:var(--white); letter-spacing:-.02em; }
 .avc-loc { font-size:.6rem; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:rgba(255,255,255,.4); margin-top:.5rem; }
 

@@ -7,12 +7,15 @@
           <div class="avc-mesh"></div>
           <div class="avc-grid"></div>
           <div class="avc-center">
-            <svg width="64" height="64" viewBox="0 0 44 44" fill="none">
-              <circle cx="22" cy="22" r="22" fill="rgba(255,255,255,.08)"/>
-              <circle cx="22" cy="10" r="5" fill="white" opacity=".88"/>
-              <polyline points="10,32 10,20 22,32 34,20 34,32" stroke="white" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
-              <polyline points="28,25 34,18 40,25" stroke="#c8922a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <img
+              class="avc-logo"
+              src="<?= e(asset('images/logo.png')) ?>"
+              alt="New Way Consultancy"
+              width="64"
+              height="64"
+              loading="lazy"
+              decoding="async"
+            >
             <div class="avc-name">New Way Consultancy</div>
             <div class="avc-loc">Perinthalmanna · Kerala · India</div>
           </div>

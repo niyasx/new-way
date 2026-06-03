@@ -1,12 +1,6 @@
 <nav id="nav">
   <a class="logo" href="#">
-    <div class="logo-icon">
-      <svg viewBox="0 0 44 44" fill="none">
-        <circle cx="22" cy="10" r="5" fill="white" opacity=".95"/>
-        <polyline points="10,34 10,20 22,34 34,20 34,34" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <polyline points="28,26 34,19 40,26" stroke="#c8922a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
+    <?php require dirname(__DIR__) . '/Components/logo-icon.php'; ?>
     <div class="logo-text">
       <strong>New Way Consultancy</strong>
       <span>Perinthalmanna · Kerala</span>
