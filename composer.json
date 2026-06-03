@@ -1,0 +1,29 @@
+{
+    "name": "new-way/consultancy-website",
+    "description": "New Way Consultancy — production PHP website",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    },
+    "scripts": {
+        "vercel": [
+            "composer install --no-dev --optimize-autoloader"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
